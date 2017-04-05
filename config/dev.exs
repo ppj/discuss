@@ -40,4 +40,6 @@ config :discuss, Discuss.Repo,
   password: "",
   database: "discuss_dev",
   hostname: "localhost",
-  pool_size: 10
+  pool_size: 10,
+  port: 15432
+
