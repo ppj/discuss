@@ -41,5 +41,5 @@ config :discuss, Discuss.Repo,
   database: "discuss_dev",
   hostname: "localhost",
   pool_size: 10,
-  port: 15432
+  port: System.get_env("BOXEN_POSTGRESQL_PORT") || 5432
 
